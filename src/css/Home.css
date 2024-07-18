@@ -1,0 +1,191 @@
+/* Base font size */
+html {
+  font-size: 16px;
+}
+
+.home-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 20px 60px 20px;
+  background-color: #fff;
+  height: 100vh; /* Full viewport height */
+  color: #000;
+  gap: 80px;
+  position: relative; /* Added for positioning the background effect */
+  overflow: hidden; /* Added to prevent overflow from the animation */
+}
+
+.home-section::before {
+  content: '';
+  position: absolute;
+  top: 0%;
+  right: 50%;
+  width: 50%;
+  height: 80%;
+  background: radial-gradient(circle, rgba(151, 147, 147, 0.3), transparent);
+  animation: flowy-lines 6s infinite linear;
+  border-radius: 50%;
+  z-index: 0; /* Ensures it stays behind the content */
+}
+
+@keyframes flowy-lines {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(25%, 25%) scale(1.2);
+  }
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+}
+
+.home-content h1 {
+  margin: 0;
+  font-size: 4rem;
+  flex-wrap: wrap;
+  position: relative; /* Ensures it stays above the background effect */
+  z-index: 10; /* Ensures it stays above the background effect */
+}
+
+.home-content h2 {
+  margin: 10px 0 0 0;
+  font-size: 1.5rem;
+  position: relative; /* Ensures it stays above the background effect */
+  z-index: 10; /* Ensures it stays above the background effect */
+}
+
+.home-content {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
+  position: relative; /* Ensures it stays above the background effect */
+  z-index: 10; /* Ensures it stays above the background effect */
+}
+
+/* Font Awesome location icon */
+.location-icon {
+  margin-left: 0.5rem; /* Space between text and icon */
+  color: rgb(209, 3, 3); /* Red color for the icon */
+  font-size: 1.1rem; /* Adjust size as needed */
+  position: relative; /* Ensures it stays above the background effect */
+  z-index: 10; /* Ensures it stays above the background effect */
+}
+
+/* Image styles */
+.mainimage{
+  width: 18rem;
+  height: auto;
+  border-radius: 50%;
+}
+
+.mainimage:hover {
+  opacity: 0.8;
+}
+
+.social-icons {
+  margin-top: 1rem; /* Adjust as needed */
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons a {
+  margin: 0 0.5rem; /* Adjust spacing as needed */
+}
+
+.social-icon {
+  width: 3rem; /* Adjust size as needed */
+  height: auto;
+}
+
+.social-icons a:hover .social-icon {
+  opacity: 0.8;
+  filter: brightness(0.8); /* Change brightness or color as needed */
+}
+
+/* Cursor dot styles */
+.cursor-dot {
+  position: absolute;
+  width: 15px; /* Adjust size as needed */
+  height: 15px;
+  background-color: #000; /* Black color */
+  border-radius: 50%;
+  pointer-events: none; /* Ensure it doesn't block interactions */
+  transform: translate(-50%, -50%); /* Center the dot on the cursor */
+  z-index: 9999; /* Make sure it's above all other elements */
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.home-section {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.home-content h1,
+.home-content h2,
+.home-image,
+.social-icons {
+  animation: fadeIn 2s ease-in-out;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .home-section {
+    flex-direction: column;
+    padding: 60px 20px;
+    gap: 20px;
+  }
+
+  .home-image {
+    order: 1; /* Move image and icons to the top */
+    text-align: center; /* Center align image and icons */
+  }
+
+  .home-content {
+    order: 2; /* Move content below image and icons */
+    text-align: center; /* Center align text content */
+  }
+
+  .home-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .home-content h2 {
+    font-size: 1.25rem;
+  }
+
+  .mainimage {
+    width: 12rem;
+    
+  }
+
+  .social-icon {
+    width: 2rem;
+  }
+
+  /* Disable hover effects on mobile */
+  .mainimage:hover, .social-icons a:hover .social-icon {
+    opacity: 1;
+    filter: none;
+  }
+
+  .home-section::before {
+    animation:none;
+    width: 0%;
+    height: 0%;
+    top: 0%;
+    left: 0%;
+  }
+
+  .cursor-dot {
+    display: none;
+  }
+}
