@@ -57,8 +57,8 @@ export const About = () => {
         </div>
         <div className="about-right">
           
-        <div class="typing-effect-container">
-        <p class="typing-effect">Get to know me!</p>
+        <div className="typing-effect-container">
+        <p className="typing-effect">Get to know me!</p>
         </div>
 
 

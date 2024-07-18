@@ -16,7 +16,7 @@ export const Navbar = () => {
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
     document.body.classList.toggle('dark-mode');
-    closeMenu(); // Close the menu when dark mode is toggled
+    closeMenu(); 
   };
 
   return (
