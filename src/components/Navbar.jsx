@@ -45,7 +45,7 @@ export const Navbar = () => {
             </li>
             <li className="nav-item">
               <div className="dark-mode-toggle" onClick={toggleDarkMode}>
-                {darkMode ? '🌙' : '🌞'}
+                {darkMode ? '🌞' : '🌙'}
               </div>
             </li>
           </ul>
