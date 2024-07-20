@@ -64,7 +64,7 @@ export const Projects = () => {
         <div className="project-item" data-aos="fade-up">
           <div className="project-description">
             <h2>Shopping System </h2>
-            <p>Created a website which allowed users to log in, log out, search, add, update and delete orders. This website is connected to a database</p>
+            <p>Created a website which allowed users to log in, log out, search, add, update and delete orders. This website is connected to a database.</p>
             <p>HTML&nbsp;&nbsp;&nbsp;CSS&nbsp;&nbsp;&nbsp;JavaScript&nbsp;&nbsp;&nbsp;SQL&nbsp;&nbsp;&nbsp;MySQL&nbsp;&nbsp;&nbsp;PHP</p>
             <div className="project-icons">
               <a href="https://github.com/ChrisAltay" target="_blank" className="icon1">
@@ -82,7 +82,7 @@ export const Projects = () => {
           <img src={foodwebsite} alt="Project 4 image" />
           <div className="project-description">
             <h2>Food Paradise</h2>
-            <p>Small fun project where I created a website portraying my favorite foods with visuals</p>
+            <p>Small fun project where I created a website portraying my favorite foods with visuals.</p>
             <p>HTML&nbsp;&nbsp;&nbsp;CSS&nbsp;&nbsp;&nbsp;Bulma</p>
             <div className="project-icons">
               <a href="https://github.com/ChrisAltay" target="_blank" className="icon1">

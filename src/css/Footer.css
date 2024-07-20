@@ -83,4 +83,9 @@
   .leftinfo p {
     font-size: 3rem;
   }
+
+  .leftinfo h1 {  
+    width: 100%;
+    font-size: 1.5rem;
+  }
 }
