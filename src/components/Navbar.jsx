@@ -7,10 +7,12 @@ export const Navbar = () => {
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
+    document.body.classList.toggle('menu-open', !isOpen);
   };
 
   const closeMenu = () => {
     setIsOpen(false);
+    document.body.classList.remove('menu-open');
   };
 
   const toggleDarkMode = () => {

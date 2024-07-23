@@ -25,6 +25,7 @@ export const Projects = () => {
       <p className="ProjP1">Each project is a unique blend of skillful development and inventive design.</p>
       
       <div className="projects-grid">
+        
         <div className="project-item" data-aos="fade-up">
           <div className="project-description">
             <h2>Portfolio</h2>

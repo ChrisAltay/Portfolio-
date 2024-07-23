@@ -18,4 +18,9 @@
       padding-top: 10px;
       font-size: 1.6rem;
     }
+
+      /* Lower z-index for headers when the menu is open */
+.menu-open .sticky-header {
+  z-index: 99;
+}
   }
