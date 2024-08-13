@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 import portfolio from '../assets/portfolio.png';
 import logiclounge from '../assets/logiclounge.png';
 import shoppingsystem from '../assets/DatabaseShop2.png';
-import foodwebsite from '../assets/foodwebsite.png';
+import moviemax from '../assets/moviemax.png';
 import '../css/stickyheader.css';
 import '../css/Projects.css';
 
@@ -80,16 +80,16 @@ export const Projects = () => {
         </div>
 
         <div className="project-item" data-aos="fade-up">
-          <img src={foodwebsite} alt="Project 4 image" />
+          <img src={moviemax} alt="Project 4 image" />
           <div className="project-description">
-            <h2>Food Paradise</h2>
-            <p>Small fun project where I created a website portraying my favorite foods with visuals.</p>
-            <p>HTML&nbsp;&nbsp;&nbsp;CSS&nbsp;&nbsp;&nbsp;Bulma</p>
+            <h2>MovieMax</h2>
+            <p>Open-Source Movie Website inspired by Netflix tailored to all ages. Browse a variety of movie genres and selections with ease!</p>
+            <p>Angular&nbsp;&nbsp;&nbsp;HTML&nbsp;&nbsp;&nbsp;CSS&nbsp;&nbsp;&nbsp;TypeScript&nbsp;&nbsp;&nbsp;TMDB</p>
             <div className="project-icons">
               <a href="https://github.com/ChrisAltay" target="_blank" className="icon1">
                 <i className="fab fa-github">Code</i>
               </a>
-              <a href="https://project4demo.netlify.app" target="_blank" className="icon">
+              <a href="https://moviemax-eta.vercel.app/" target="_blank" className="icon">
                 <i className="fas fa-download">Live Demo</i>
               </a>
             </div>
