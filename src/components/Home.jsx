@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import '../css/Home.css'; 
 import chrisPicture from '../assets/chris1.JPG'; 
-import instagramIcon from '../assets/instagram.png'; 
+import youtubeIcon from '../assets/youtube2.png'; 
 import githubIcon from '../assets/github.png'; 
 import linkedinIcon from '../assets/linkedin.png'; 
 
@@ -86,8 +86,8 @@ export const Home = () => {
         <img src={chrisPicture} className="mainimage" alt="Christopher Altagracia" title="This is me"/>
         
         <div className="social-icons">
-          <a href="https://www.instagram.com/chrisaltay/" target="_blank" rel="noopener noreferrer">
-            <img src={instagramIcon} alt="Instagram" className="social-icon" title="Check me out on Instagram!" />
+          <a href="https://www.youtube.com/channel/UCUM4Qe7JRKtYXdkAK7VIDqw" target="_blank" rel="noopener noreferrer">
+            <img src={youtubeIcon} alt="Youtube" className="social-icon" title="Check me out on Youtube!" />
           </a>
           <a href="https://github.com/ChrisAltay" target="_blank" rel="noopener noreferrer" title="Explore my repositories on Github!">
             <img src={githubIcon} alt="GitHub" className="social-icon" />
