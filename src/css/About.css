@@ -8,6 +8,7 @@
   align-items: center;
 }
 
+
 .about-content {
   display: flex;
   gap: 20px;
@@ -27,7 +28,7 @@
   flex: 1;
   display: flex;
   align-items: center;
-  text-align: center;
+  text-align: column;
   flex-direction: column;
   justify-content: center;
   padding: 20px;
@@ -44,29 +45,35 @@
   line-height: 1.6;
 }
 
+.about-right hr{
+  width: 50%;
+}
+
 .carousel .slide img {
   width: 70%;
   border-radius: 10px;
 }
 
+.carousel .showarrows {
+  color: aqua;
+}
+
+.carousel.carousel-slider .control-arrow {
+  color: black !important;
+}
+
 .skills-section {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   margin-top: 20px;
-  width: 50%;
+  width: 90%;
   overflow: hidden;
-  position: relative;
 }
 
-.skills-marquee-wrapper {
-  display: flex;
-  justify-content: center;
-  overflow: hidden;
-  width: 100%;
-}
-
-.skills-marquee {
-  display: flex;
-  animation: marquee 10s linear infinite;
+.skills-list {
+  width: 150%;
+  animation: scrollanimation 19s linear infinite;
 }
 
 .skill-item {
@@ -77,7 +84,7 @@
   border-radius: 5px;
 }
 
-@keyframes marquee {
+@keyframes scrollanimation {
   0% {
     transform: translateX(100%);
   }
@@ -97,7 +104,7 @@
   width: 100%;
   white-space: nowrap;
   overflow: hidden;
-  animation: typing 2s steps(16, end),
+  animation: typing 3s steps(16, end),
   cursor .6s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -113,6 +120,11 @@
   from { width: 0; }
   to { width: 16ch; }
 }
+
+
+
+
+
 
 /* Responsive design */
 @media (max-width: 768px) {
@@ -155,6 +167,11 @@
 
   .skills-section {
     width: 90%; /* Adjust skills section width for mobile */
+  }
+
+  .skills-list {
+    width: 180%;
+    animation: scrollanimation 15s linear infinite;
   }
 
   .typing-effect {

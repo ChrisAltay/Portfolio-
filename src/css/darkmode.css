@@ -1,0 +1,78 @@
+/* Global dark mode styles */
+body.dark-mode {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  body.dark-mode .navbar-custom {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  body.dark-mode .navbar-custom .nav-link {
+    color: #fff;
+  }
+  
+  body.dark-mode .navbar-custom .navbar-brand {
+    color: #fff;
+  }
+  
+  
+  /* Specific section and text styles */
+  body.dark-mode .home-section,
+  body.dark-mode .about-section,
+  body.dark-mode .projects-section,
+  body.dark-mode .contact-section {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  /* For other text elements */
+  body.dark-mode h1,
+  body.dark-mode h2,
+  body.dark-mode h3,
+  body.dark-mode h4,
+  body.dark-mode h5,
+  body.dark-mode h6,
+  body.dark-mode p,
+  body.dark-mode a {
+    color: #fff;
+  }
+  
+  body.dark-mode .skill-item {
+    color: #fff;
+  }
+  
+  body.dark-mode .red-circle {
+    background: radial-gradient(circle, rgba(255, 0, 0, 0.8) 0%, rgba(139, 0, 0, 0.8) 100%);
+  }
+  
+  /* Dark mode toggle */
+  .dark-mode-toggle {
+    cursor: pointer;
+    margin-left: auto;
+    padding: 0px;
+    gap: 10px;
+    font-size: 24px;
+    color: #000;
+  }
+  
+  
+  body.dark-mode .navbar-toggler-icon {
+    background-color: #fff; /* Ensure the menu icon is white in dark mode */
+  }
+  
+  body.dark-mode .navbar-toggler-icon::before,
+  body.dark-mode .navbar-toggler-icon::after {
+    background-color: #fff; /* Ensure the before and after pseudo-elements are also white */
+  }
+  
+  body.dark-mode .project-item img {
+    box-shadow: -5px 0 8px rgba(255, 255, 255, 0.5),  /* Left shadow */
+    5px 0 8px rgba(255, 255, 255, 0.5),   /* Right shadow */
+    0 5px 8px rgba(255, 255, 255, 0.5);   /* Bottom shadow */
+  }
+
+  body.dark-mode .cursor-dot {
+    background-color: #ffffff; /* white color when in dark mode*/ 
+  }
