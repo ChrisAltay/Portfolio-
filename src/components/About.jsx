@@ -68,7 +68,7 @@ export const About = () => {
           I'm Christopher Altagracia, a Web Developer with a passion for creating intuitive and dynamic websites. 
           I graduated from Kean University with a Bachelor's degree and am now pursuing a Master’s degree in Information Systems.
            During my undergraduate studies, I tutored students as a Code Samurai Tutor and conducted research on Large Language Models (LLM) vulnerabilities, 
-           which was awarded top 10 articles and published at ISNCC 2024. Currently, I’m a graduate assistant, tutoring students and working as a web developer 
+           which was awarded top 10 articles, presented and published at ISNCC 2024. Currently, I’m a graduate assistant, tutoring students and working as a web developer 
            for Kean's ACM (Association for Computing Machinery) club. My passion for web development keeps me engaged in continuous learning 
            and skill-building through various projects.  I am eager to leverage my expertise and enthusiastic to make a significant impact in the tech industry.
           </p>
@@ -89,20 +89,23 @@ export const About = () => {
                 <span className="skill-item">Bootstrap</span>
                 <span className="skill-item">Tailwind CSS</span>
                 <span className="skill-item">Java</span>
-                <span className="skill-item">Linux</span>
-                <span className="skill-item">PHP</span>
                 <span className="skill-item">Ampps</span>
                 <span className="skill-item">Eclipse</span>
                 <span className="skill-item">VS Code</span>
                 <span className="skill-item">MobaXterm</span>
                 <span className="skill-item">Filezilla</span>
+                <span className="skill-item">Linux</span>
+                <span className="skill-item">PHP</span>
                 <span className="skill-item">Google Colab</span>
                 <span className="skill-item">OBS Studio</span>
                 <span className="skill-item">Google Sheets</span>
                 <span className="skill-item">Git</span>
                 <span className="skill-item">Github Pages</span>
                 <span className="skill-item">Vercel</span>
+
               </p>
+
+              
             </div>
           </div>
         </div>

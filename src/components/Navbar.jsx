@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../css/darkmode.css';
 import '../css/Navbar.css';
 
 export const Navbar = () => {

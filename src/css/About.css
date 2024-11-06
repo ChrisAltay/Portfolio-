@@ -170,11 +170,12 @@
   }
 
   .skills-list {
-    width: 180%;
-    animation: scrollanimation 15s linear infinite;
+    width: 170%;
+    animation: scrollanimation 20s linear infinite;
   }
 
   .typing-effect {
     font-size: 1.5rem; /* Adjust typing effect font size for mobile */
   }
 }
+
