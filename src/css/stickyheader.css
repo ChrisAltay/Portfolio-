@@ -1,0 +1,26 @@
+.sticky-header {        /* used for all three sections with headers*/
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    padding-top: 20px;
+    font-family: Monaco;
+    font-size: 2rem;
+    text-align: center;
+    z-index: 101;
+    width: 30%;
+  }
+
+
+  @media (max-width: 768px) {
+    
+    .sticky-header {
+      width: 40%;
+      padding-top: 10px;
+      font-size: 1.6rem;
+    }
+
+      /* Lower z-index for headers when the menu is open */
+.menu-open .sticky-header {
+  z-index: 99;
+}
+  }

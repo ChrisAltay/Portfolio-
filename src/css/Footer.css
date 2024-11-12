@@ -1,0 +1,91 @@
+.contact-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  background-color: #000000;
+  color: #ffffff;
+  min-height: 40vh; /* Shrink the section height */
+}
+
+.allcontent {
+  width: 70%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.infosections {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 42%;
+}
+
+.leftinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.leftinfo p {
+  font-size: 8rem;
+}
+
+.leftinfo h1 {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.rightinfo {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
+  align-items: center;
+  text-align: center;
+}
+
+.infolinks {
+  list-style: none;
+  padding: 0;
+}
+
+.infolinks li {
+  margin: 10px 0;
+}
+
+.infolinks a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.infolinks a:hover {
+  text-decoration: underline;
+}
+
+.footersection {
+  text-align: center;
+  margin-top: 40px;
+  width: 100%;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .infosections {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .leftinfo p {
+    font-size: 3rem;
+  }
+
+  .leftinfo h1 {  
+    width: 100%;
+    font-size: 1.5rem;
+  }
+}

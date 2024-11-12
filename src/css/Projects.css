@@ -1,0 +1,121 @@
+.projects-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 20px;
+  background-color: #fff;
+  color: #000;
+  position: relative;
+  min-height: 100vh;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr; 
+  gap: 10px;
+  width: 70%;
+  max-width: 1200px;
+  margin-top: 30px;
+}
+
+.project-item:nth-child(even) .project-description {
+  order: 1; /* Ensure even project descriptions follow the same order as odd ones */
+}
+
+.project-item {
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  text-align: center;
+
+}
+
+.project-item img {
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+  margin: 30px;
+  border: solid rgb(0, 0, 0) 1px;
+  box-shadow: -5px 0 8px rgba(0, 0, 0, 0.5),  /* Left shadow */
+  5px 0 8px rgba(0, 0, 0, 0.5),   /* Right shadow */
+  0 5px 8px rgba(0, 0, 0, 0.5);   /* Bottom shadow */
+  transition: .3s;
+}
+
+.project-item img:hover {
+  transform: scale(1 ) rotate(5deg);
+  cursor: pointer;
+}
+
+.project-description {
+  flex: 1;
+  padding: 15px;
+}
+
+.project-description h2 {
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+  font-family: Monaco;
+}
+
+.project-description p {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.project-icons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.project-icons a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.project-icons a:hover {
+  color: #007bff;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .projects-grid {
+    display: block; /* Change grid display to block on mobile */
+    width: 100%; 
+  }
+
+  .project-item {
+    flex-direction: column; /* Display each project as a column */
+    margin-bottom: 20px; /* Add spacing between projects */
+  }
+
+  .project-item:nth-child(odd) .project-description {
+    order: 1; /* Ensure even project descriptions follow the same order as odd ones */
+  }
+
+  .project-item img {
+    width: 80%; /* Adjust image size for mobile */
+    margin: 10px auto; /* Center the image with auto margin */
+  }
+
+  .project-description h2 {
+    font-size: 1.5rem; /* Adjust font size for mobile */
+  }
+
+  .project-description p {
+    font-size: 0.9rem; /* Adjust font size for mobile */
+  }
+
+  .project-icons a {
+    font-size: 1rem; /* Adjust icon font size for mobile */
+  }
+
+  .project-item img:hover {
+    transform: none;
+  }
+
+  
+}

@@ -1,0 +1,209 @@
+/* Custom Navbar Styles */
+.navbar-custom {
+  background-color: #ffffff; 
+  color: #000;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 101;
+  padding: 20px;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+  color: #000; 
+  text-decoration: none; 
+  position: relative; /* Needed for the underline effect */
+}
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .navbar-brand:hover {
+  color: #5c5c5c; 
+}
+
+.navbar-custom .nav-link:hover::after,
+.navbar-custom .navbar-brand:hover::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px; /* Thickness of the underline */
+  background-color: red; /* Color of the underline */
+  left: 0;
+  bottom: -2px; /* Position of the underline */
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  transition: transform 0.3s ease-out;
+}
+
+.navbar-custom .nav-link::after,
+.navbar-custom .navbar-brand::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: red;
+  left: 0;
+  bottom: -2px;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+}
+
+.navbar-custom .navbar-toggler {
+  border: none;
+  background: transparent;
+  outline: none;
+}
+
+.navbar-custom .navbar-toggler-icon {
+  width: 25px;
+  height: 2px;
+  background-color: #000;
+  position: relative;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-custom .navbar-toggler.open .navbar-toggler-icon {
+  background-color: transparent;
+}
+
+.navbar-custom .navbar-toggler.open .navbar-toggler-icon::before {
+  transform: rotate(45deg);
+  top: 0;
+}
+
+.navbar-custom .navbar-toggler.open .navbar-toggler-icon::after {
+  transform: rotate(-45deg);
+  top: 0;
+}
+
+.navbar-custom .navbar-toggler-icon::before,
+.navbar-custom .navbar-toggler-icon::after {
+  content: '';
+  width: 25px;
+  height: 2px;
+  background-color: #000;
+  position: absolute;
+  left: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-custom .navbar-toggler-icon::before {
+  top: -8px;
+}
+
+.navbar-custom .navbar-toggler-icon::after {
+  top: 8px;
+}
+
+.navbar-nav {
+  margin-right: 10%;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  margin-left: 10%;
+}
+
+.split {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.fname:hover {
+  color: rgb(214, 33, 33);
+}
+
+.navbar-brand:hover .split:first-child {
+  transform: translateY(-5px); /* Move "Chris" up */
+}
+
+.navbar-brand:hover .split:last-child {
+  transform: translateY(5px); /* Move "Altay" down */
+}
+
+.red-circle {
+  width: 10px;
+  height: 10px;
+  margin-left: 10px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255,0,0,1) 0%, rgba(139,0,0,1) 100%);
+}
+
+.collapse.navbar-collapse {
+  transition: all 0.3s ease-in-out;
+}
+
+
+@media (max-width: 768px) {
+  .navbar-custom .collapse.navbar-collapse {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(-100%);
+  }
+
+  .navbar-custom .collapse.navbar-collapse.show {
+    transform: translateY(0);
+  }
+
+
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    margin-right: 0%;
+  }
+
+  .nav-item {
+    width: 100%;
+    text-align: center;
+    margin: 15px 0;
+  }
+
+  .ms-auto {
+    margin-left: 0% !important;
+  }
+
+  .navbar-toggler {
+    z-index: 102;
+  }
+
+  .navbar-brand {
+    margin-left: 0%;
+  }
+
+  /* Disable hover effects on mobile */
+  .navbar-custom .nav-link:hover,
+  .navbar-custom .navbar-brand:hover {
+    color: #000; /* Keep text color black */
+  }
+
+  .navbar-custom .nav-link:hover::after,
+  .navbar-custom .navbar-brand:hover::after {
+    content: none; /* Remove the underline effect */
+  }
+
+  .navbar-brand:hover .split:first-child,
+  .navbar-brand:hover .split:last-child {
+    transform: none; /* Remove the split hover effect */
+  }
+
+  body.dark-mode .navbar-custom .collapse.navbar-collapse {
+    background-color: #000;
+  }
+
+}
