@@ -65,11 +65,12 @@ export const About = () => {
         </div>
 
           <p>
-          I'm Christopher Altagracia, a Web Developer with a passion for creating intuitive and dynamic websites. 
-          I graduated from Kean University with a Bachelor's degree and am now pursuing a Master’s degree in Information Systems.
-           During my undergraduate studies, I tutored students as a Code Samurai Tutor and conducted research on Large Language Models (LLM) vulnerabilities, 
-           which was awarded top 10 articles, presented and published at ISNCC 2024. Currently, I’m a graduate assistant, tutoring students and working as a web developer 
-           for Kean's ACM (Association for Computing Machinery) club. My passion for web development keeps me engaged in continuous learning 
+          I'm <strong>Christopher P. Altagracia</strong>, a Web Developer with a passion for creating intuitive and dynamic websites. 
+          I graduated from Kean University with a <strong>Bachelor's degree</strong> and am now pursuing a <strong>Master’s degree</strong> in Information Systems.
+           During my undergraduate studies, I tutored students as a <strong>Code Samurai Tutor</strong> and conducted research on <strong>Large Language Models (LLM) vulnerabilities</strong>, 
+           which was <strong>presented at ISNCC 2024</strong>, <strong>awarded top 10 articles</strong>, and <strong>published at</strong> <a href='https://ieeexplore.ieee.org/document/10758949'><strong>IEEE Xplore</strong></a>. 
+           Currently, I’m a <strong>graduate assistant</strong>, <strong>tutoring students</strong> and working as a <strong>web developer </strong>
+           for <strong>Kean's ACM (Association for Computing Machinery) club</strong>. My passion for web development keeps me engaged in continuous learning 
            and skill-building through various projects.  I am eager to leverage my expertise and enthusiastic to make a significant impact in the tech industry.
           </p>
         
