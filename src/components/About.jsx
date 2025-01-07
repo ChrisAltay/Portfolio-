@@ -66,10 +66,10 @@ export const About = () => {
 
           <p>
           I'm <strong>Christopher P. Altagracia</strong>, a Web Developer with a passion for creating intuitive and dynamic websites. 
-          I graduated from Kean University with a <strong>Bachelor's degree</strong> and am now pursuing a <strong>Master’s degree</strong> in Information Systems.
+          I graduated from Kean University with a <strong>Bachelor's degree</strong> in Computer Science and now pursuing a <strong>Master’s degree</strong> in Information Systems.
            During my undergraduate studies, I tutored students as a <strong>Code Samurai Tutor</strong> and conducted research on <strong>Large Language Models (LLM) vulnerabilities</strong>, 
            which was <strong>presented at ISNCC 2024</strong>, <strong>awarded top 10 articles</strong>, and <strong>published at</strong> <a href='https://ieeexplore.ieee.org/document/10758949'><strong>IEEE Xplore</strong></a>. 
-           Currently, I’m a <strong>graduate assistant</strong>, <strong>tutoring students</strong> and working as a <strong>web developer </strong>
+           Currently, I’m a <strong>graduate administrative assistant</strong>, <strong>Code Samurai Tutor</strong> and working as a <strong>web developer </strong>
            for <strong>Kean's ACM (Association for Computing Machinery) club</strong>. My passion for web development keeps me engaged in continuous learning 
            and skill-building through various projects.  I am eager to leverage my expertise and enthusiastic to make a significant impact in the tech industry.
           </p>
@@ -96,7 +96,6 @@ export const About = () => {
                 <span className="skill-item">MobaXterm</span>
                 <span className="skill-item">Filezilla</span>
                 <span className="skill-item">Linux</span>
-                <span className="skill-item">PHP</span>
                 <span className="skill-item">Google Colab</span>
                 <span className="skill-item">OBS Studio</span>
                 <span className="skill-item">Google Sheets</span>
