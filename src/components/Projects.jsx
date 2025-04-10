@@ -6,6 +6,7 @@ import ACM from '../assets/ACM.png';
 import logiclounge from '../assets/logiclounge.png';
 import shoppingsystem from '../assets/DatabaseShop2.png';
 import moviemax from '../assets/moviemax.png';
+import MM from '../assets/MealMatch.png'
 import '../css/stickyheader.css';
 import '../css/Projects.css';
 
@@ -120,6 +121,27 @@ export const Projects = () => {
             </div>
           </div>
           <img src={ACM} alt="Project 5 image" />
+        </div>
+
+        <div className="project-item" data-aos="fade-up">
+          <div className="project-description">
+            <h2>MealMatch</h2>
+            <p>As project manager, UI/UX designer, and frontend developer, I led a team to build a responsive recipe web app using Agile methodology.
+              I handled all documentation, task allocation, and end-to-end UI/UX design. I implemented mobile-friendly front-end code with Tailwind CSS
+              and JavaScript, ensuring an intuitive experience. The project emphasized clean design, team coordination, and real-world functionality 
+              using API data and secure user features.
+            </p>
+            <p>HTML&nbsp;&nbsp;&nbsp;TailwindCSS&nbsp;&nbsp;&nbsp;JavaScript&nbsp;MySQL&nbsp;PHP&nbsp;TheMealDB API</p>
+            <div className="project-icons">
+              <a href="https://github.com/ChrisAltay/MealMatch.git" target="_blank" className="icon1">
+                <i className="fab fa-github">Code</i>
+              </a>
+              <a href="http://project.adamspencer.me/index.php" target="_blank" className="icon">
+                <i className="fas fa-download">Live Demo</i>
+              </a>
+            </div>
+          </div>
+          <img src={MM} alt="Project 5 image" />
         </div>
 
       </div>
