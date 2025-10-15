@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import image1 from '../assets/CKGrad.JPG';
 import image2 from '../assets/Chris.JPG';
 import image3 from '../assets/ChrisGrad.JPG';
-import image4 from '../assets/ChrisNSetup.jpeg';
+import image4 from '../assets/NewSetup.jpg';
 import image5 from '../assets/CKristyBithday.JPEG';
 import image6 from '../assets/ChrisChipotle.JPG';
 import image7 from '../assets/Car.PNG';
