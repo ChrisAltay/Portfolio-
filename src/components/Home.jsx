@@ -78,7 +78,7 @@ export const Home = () => {
       <div className="home-content">
         <h2><span id="hello-span">Hello</span>, I'm </h2>
         <h1>Christopher Altagracia</h1>
-        <h2>Front-End Web Developer based in Cranford, New Jersey <i className="fas fa-map-pin location-icon"></i>
+        <h2>Full Stack Developer based in Cranford, New Jersey <i className="fas fa-map-pin location-icon"></i>
         </h2>
       </div>
 

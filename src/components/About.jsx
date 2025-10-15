@@ -66,7 +66,7 @@ export const About = () => {
 
           <p>
           I'm <strong>Christopher P. Altagracia</strong>, a Web Developer with a passion for creating intuitive and dynamic websites. 
-          I graduated from Kean University with a <strong>Bachelor's degree</strong> in Computer Science and now pursuing a <strong>Master’s degree</strong> in Information Systems.
+          I graduated from Kean University with a <strong>Bachelor's degree</strong> in Computer Science and now pursuing a <strong>Master’s degree</strong> in Computer Science.
            During my undergraduate studies, I tutored students as a <strong>Code Samurai Tutor</strong> and conducted research on <strong>Large Language Models (LLM) vulnerabilities</strong>, 
            which was <strong>presented at ISNCC 2024</strong>, <strong>awarded top 10 articles</strong>, and <strong>published at</strong> <a href='https://ieeexplore.ieee.org/document/10758949'><strong>IEEE Xplore</strong></a>. 
            Currently, I’m a <strong>graduate administrative assistant</strong>, <strong>Code Samurai Tutor</strong> and working as a <strong>web developer </strong>
@@ -102,6 +102,8 @@ export const About = () => {
                 <span className="skill-item">Git</span>
                 <span className="skill-item">Github Pages</span>
                 <span className="skill-item">Vercel</span>
+                <span className="skill-item">Power Bi</span>
+                <span className="skill-item">Tableau</span>
 
               </p>
 
