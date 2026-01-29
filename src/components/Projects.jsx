@@ -6,7 +6,7 @@ import ACM from '../assets/ACM.png';
 import logiclounge from '../assets/logiclounge.png';
 import shoppingsystem from '../assets/DatabaseShop2.png';
 import moviemax from '../assets/moviemax.png';
-import MM from '../assets/MealMatch.png'
+import MM from '../assets/MealMatch.png';
 import pixalyze from '../assets/Pixalyze.png';
 import dataforge from '../assets/DataForge.png';
 import keanu from '../assets/KeanU.png';
