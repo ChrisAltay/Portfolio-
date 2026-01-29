@@ -158,7 +158,7 @@ export const Projects = () => {
               <a href="https://github.com/ChrisAltay" target="_blank" className="icon1">
                 <i className="fab fa-github">Code</i>
               </a>
-              <a href="" target="_blank" className="icon">
+              <a href="https://project3demo.netlify.app" target="_blank" className="icon">
                 <i className="fas fa-download">Live Demo</i>
               </a>
             </div>
@@ -177,7 +177,7 @@ export const Projects = () => {
               <a href="https://github.com/ChrisAltay" target="_blank" className="icon1">
                 <i className="fab fa-github">Code</i>
               </a>
-              <a href="" target="_blank" className="icon">
+              <a href="https://project3demo.netlify.app" target="_blank" className="icon">
                 <i className="fas fa-download">Live Demo</i>
               </a>
             </div>
@@ -195,7 +195,7 @@ export const Projects = () => {
               <a href="https://github.com/ChrisAltay" target="_blank" className="icon1">
                 <i className="fab fa-github">Code</i>
               </a>
-              <a href="" target="_blank" className="icon">
+              <a href="https://project3demo.netlify.app" target="_blank" className="icon">
                 <i className="fas fa-download">Live Demo</i>
               </a>
             </div>
