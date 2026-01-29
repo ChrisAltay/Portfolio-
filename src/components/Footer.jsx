@@ -26,7 +26,7 @@ export const Footer = () => {
         </div>
 
         <div className="footersection">
-          <p>&copy; 2025 Christopher Altagracia. All rights reserved.</p>
+          <p>&copy; 2026 Christopher Altagracia. All rights reserved.</p>
         </div>
       </div>
     </section>

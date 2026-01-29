@@ -7,6 +7,9 @@ import logiclounge from '../assets/logiclounge.png';
 import shoppingsystem from '../assets/DatabaseShop2.png';
 import moviemax from '../assets/moviemax.png';
 import MM from '../assets/MealMatch.png'
+import pixalyze from '../assets/Pixalyze.png'
+import dataforge from '../assets/DataForge.png'
+import keanu from '../assets/KeanU.png'
 import '../css/stickyheader.css';
 import '../css/Projects.css';
 
@@ -47,7 +50,7 @@ export const Projects = () => {
         </div>
 
         <div className="project-item" data-aos="fade-up">
-          <img src={logiclounge} alt="Project 2 image" />
+          <img src={logiclounge} alt="Project image" />
           <div className="project-description">
             <h2>Logic Lounge</h2>
             <p>Logic Lounge is an innovative open-source Chat platform tailored to programmers worldwide to come together, network, 
@@ -83,7 +86,7 @@ export const Projects = () => {
         </div>
 
         <div className="project-item" data-aos="fade-up">
-          <img src={moviemax} alt="Project 4 image" />
+          <img src={moviemax} alt="Project image" />
           <div className="project-description">
             <h2>MovieMax</h2>
             <p>Open-Source Movie Website inspired by Netflix tailored to all ages.
@@ -131,7 +134,7 @@ export const Projects = () => {
               and JavaScript, ensuring an intuitive experience. The project emphasized clean design, team coordination, and real-world functionality 
               using API data and secure user features.
             </p>
-            <p>HTML&nbsp;&nbsp;&nbsp;TailwindCSS&nbsp;&nbsp;&nbsp;JavaScript&nbsp;MySQL&nbsp;PHP&nbsp;TheMealDB API</p>
+            <p>HTML&nbsp;&nbsp;TailwindCSS&nbsp;&nbsp;JS&nbsp;&nbsp;MySQL&nbsp;&nbsp;PHP&nbsp;&nbsp;TheMealDB API</p>
             <div className="project-icons">
               <a href="https://github.com/ChrisAltay/MealMatch.git" target="_blank" className="icon1">
                 <i className="fab fa-github">Code</i>
@@ -142,6 +145,62 @@ export const Projects = () => {
             </div>
           </div>
           <img src={MM} alt="Project 5 image" />
+        </div>
+
+        
+        <div className="project-item" data-aos="fade-up">
+          <div className="project-description">
+            <h2>Pixalyze</h2>
+            <p>Built an interactive image analyzer that allows users to upload images and inspect RGB color values at the pixel level. 
+              The project focused on image processing concepts, DOM interaction, and real-time data extraction to help users better understand how digital images are represented and manipulated.</p>
+            <p>HTML&nbsp;&nbsp;&nbsp;CSS&nbsp;&nbsp;&nbsp;JavaScript&nbsp;&nbsp;&nbsp;SQL&nbsp;&nbsp;&nbsp;PHP&nbsp;&nbsp;&nbsp;MySQL</p>
+            <div className="project-icons">
+              <a href="https://github.com/ChrisAltay" target="_blank" className="icon1">
+                <i className="fab fa-github">Code</i>
+              </a>
+              <a href="" target="_blank" className="icon">
+                <i className="fas fa-download">Live Demo</i>
+              </a>
+            </div>
+          </div>
+          <img src={pixalyze} alt="Pixalyze image"/>
+        </div>
+
+           <div className="project-item" data-aos="fade-up">
+          <img src={dataforge} alt="Project image" />
+          <div className="project-description">
+            <h2>DataForge</h2>
+            <p>Built a data visualization dashboard analyzing relationships between education level, unemployment, and self-employment using real-world datasets.
+               Implemented database-backed data storage with custom data marts, user authentication (login/logout), and interactive visualizations to surface trends through a clean, accessible interface.</p>
+            <p>HTML&nbsp;&nbsp;CSS&nbsp;&nbsp;JavaScript&nbsp;&nbsp;AJAX&nbsp;&nbsp;SQL&nbsp;&nbsp;MySQL&nbsp;&nbsp;PHP</p>
+            <div className="project-icons">
+              <a href="https://github.com/ChrisAltay" target="_blank" className="icon1">
+                <i className="fab fa-github">Code</i>
+              </a>
+              <a href="" target="_blank" className="icon">
+                <i className="fas fa-download">Live Demo</i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+         <div className="project-item" data-aos="fade-up">
+          <div className="project-description">
+            <h2>KeanU</h2>
+            <p>Worked on a full-stack e-commerce web application for an online candy store using Agile/Scrum practices.
+               Contributed to building user-facing features such as product browsing, shopping cart functionality, 
+               checkout flow, and order tracking, while collaborating with a team on backend integration, database design, and overall system workflow.</p>
+            <p>HTML&nbsp;&nbsp;TailwindCSS&nbsp;&nbsp;JS&nbsp;&nbsp;NoSQL&nbsp;&nbsp;Python&nbsp;&nbsp;PHP</p>
+            <div className="project-icons">
+              <a href="https://github.com/ChrisAltay" target="_blank" className="icon1">
+                <i className="fab fa-github">Code</i>
+              </a>
+              <a href="" target="_blank" className="icon">
+                <i className="fas fa-download">Live Demo</i>
+              </a>
+            </div>
+          </div>
+          <img src={keanu} alt="Project image" />
         </div>
 
       </div>

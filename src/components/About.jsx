@@ -65,13 +65,13 @@ export const About = () => {
         </div>
 
           <p>
-          I'm <strong>Christopher P. Altagracia</strong>, a Web Developer with a passion for creating intuitive and dynamic websites. 
-          I graduated from Kean University with a <strong>Bachelor's degree</strong> in Computer Science and now pursuing a <strong>Master’s degree</strong> in Computer Science.
+          I'm <strong>Christopher P. Altagracia</strong>, a Full Stack Developer with a passion for creating intuitive and dynamic websites. 
+          I graduated from Kean University as a UPE Honors student with a <strong>Bachelor's degree</strong> and a <strong>Master’s degree</strong> in Computer Science.
            During my undergraduate studies, I tutored students as a <strong>Code Samurai Tutor</strong> and conducted research on <strong>Large Language Models (LLM) vulnerabilities</strong>, 
-           which was <strong>presented at ISNCC 2024</strong>, <strong>awarded top 10 articles</strong>, and <strong>published at</strong> <a href='https://ieeexplore.ieee.org/document/10758949'><strong>IEEE Xplore</strong></a>. 
-           Currently, I’m a <strong>graduate administrative assistant</strong>, <strong>Code Samurai Tutor</strong> and working as a <strong>web developer </strong>
+           which was <strong>presented at ISNCC 2024</strong>, <strong>awarded top 10 articles</strong>, and <strong>published at</strong> <a href='https://ieeexplore.ieee.org/document/10758949'  style={{ color: 'black'}}><strong>IEEE Xplore</strong></a>. 
+           I was a <strong>graduate administrative assistant</strong>, <strong>Code Samurai Tutor</strong> and worked as a <strong>web developer </strong>
            for <strong>Kean's ACM (Association for Computing Machinery) club</strong>. My passion for web development keeps me engaged in continuous learning 
-           and skill-building through various projects.  I am eager to leverage my expertise and enthusiastic to make a significant impact in the tech industry.
+           and skill-building through various projects. I am eager to leverage my expertise and make a significant impact in the tech industry.
           </p>
         
           <hr />
@@ -80,6 +80,8 @@ export const About = () => {
             <h4>Core Technical Skills:</h4>
             <div className="skills-list">
               <p>
+                <span className="skill-item">Python</span>
+                <span className="skill-item">AWS</span>
                 <span className="skill-item">HTML</span>
                 <span className="skill-item">CSS</span>
                 <span className="skill-item">JavaScript</span>
@@ -90,21 +92,17 @@ export const About = () => {
                 <span className="skill-item">Bootstrap</span>
                 <span className="skill-item">Tailwind CSS</span>
                 <span className="skill-item">Java</span>
-                <span className="skill-item">Ampps</span>
                 <span className="skill-item">Eclipse</span>
                 <span className="skill-item">VS Code</span>
                 <span className="skill-item">MobaXterm</span>
                 <span className="skill-item">Filezilla</span>
                 <span className="skill-item">Linux</span>
-                <span className="skill-item">Google Colab</span>
-                <span className="skill-item">OBS Studio</span>
                 <span className="skill-item">Google Sheets</span>
                 <span className="skill-item">Git</span>
                 <span className="skill-item">Github Pages</span>
                 <span className="skill-item">Vercel</span>
                 <span className="skill-item">Power Bi</span>
                 <span className="skill-item">Tableau</span>
-
               </p>
 
               
