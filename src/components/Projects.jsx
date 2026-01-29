@@ -7,9 +7,9 @@ import logiclounge from '../assets/logiclounge.png';
 import shoppingsystem from '../assets/DatabaseShop2.png';
 import moviemax from '../assets/moviemax.png';
 import MM from '../assets/MealMatch.png'
-import pixalyze from '../assets/Pixalyze.png'
-import dataforge from '../assets/DataForge.png'
-import keanu from '../assets/KeanU.png'
+import pixalyze from '../assets/Pixalyze.png';
+import dataforge from '../assets/DataForge.png';
+import keanu from '../assets/KeanU.png';
 import '../css/stickyheader.css';
 import '../css/Projects.css';
 
