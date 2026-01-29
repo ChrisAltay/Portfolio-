@@ -38,29 +38,29 @@ export const Projects = () => {
               innovative solutions. Showcasing an interactive interface to demonstrate my technical proficiency and creativity, offering visitors a firsthand experience of my professional journey in technology.</p>
             <p>HTML&nbsp;&nbsp;&nbsp;CSS&nbsp;&nbsp;&nbsp;JavaScript&nbsp;&nbsp;&nbsp;React&nbsp;&nbsp;&nbsp;Node.js&nbsp;&nbsp;&nbsp;Bootstrap</p>
             <div className="project-icons">
-              <a href="https://github.com/ChrisAltay" target="_blank" className="icon1">
+              <a href="https://github.com/ChrisAltay" target="_blank" rel="noreferrer" className="icon1">
                 <i className="fab fa-github">Code</i>
               </a>
-              <a href="https://chrisaltay.com" target="_blank" className="icon">
+              <a href="https://chrisaltay.com" target="_blank" rel="noreferrer" className="icon">
                 <i className="fas fa-download">Live Demo</i>
               </a>
             </div>
           </div>
-          <img src={portfolio} alt="Portfolio image" title="Fun fact: You are looking at my portfolio right now"/>
+          <img src={portfolio} alt="Personal Website Screenshot" title="Fun fact: You are looking at my portfolio right now"/>
         </div>
 
         <div className="project-item" data-aos="fade-up">
-          <img src={logiclounge} alt="Project image" />
+          <img src={logiclounge}alt="Logic Lounge Project" />
           <div className="project-description">
             <h2>Logic Lounge</h2>
             <p>Logic Lounge is an innovative open-source Chat platform tailored to programmers worldwide to come together, network, 
             calloborate and help one another.</p>
             <p>HTML&nbsp;&nbsp;&nbsp;CSS&nbsp;&nbsp;&nbsp;JavaScript&nbsp;&nbsp;&nbsp;SQL&nbsp;&nbsp;&nbsp;MySQL&nbsp;&nbsp;&nbsp;PHP</p>
             <div className="project-icons">
-              <a href="https://github.com/ChrisAltay" target="_blank" className="icon1">
+              <a href="https://github.com/ChrisAltay" target="_blank" rel="noreferrer" className="icon1">
                 <i className="fab fa-github">Code</i>
               </a>
-              <a href="https://project2demo.netlify.app" target="_blank" className="icon">
+              <a href="https://project2demo.netlify.app" target="_blank" rel="noreferrer" className="icon">
                 <i className="fas fa-download">Live Demo</i>
               </a>
             </div>
@@ -74,29 +74,29 @@ export const Projects = () => {
                add, update and delete orders. This website is connected to a database.</p>
             <p>HTML&nbsp;&nbsp;&nbsp;CSS&nbsp;&nbsp;&nbsp;JavaScript&nbsp;&nbsp;&nbsp;SQL&nbsp;&nbsp;&nbsp;MySQL&nbsp;&nbsp;&nbsp;PHP</p>
             <div className="project-icons">
-              <a href="https://github.com/ChrisAltay" target="_blank" className="icon1">
+              <a href="https://github.com/ChrisAltay" target="_blank" rel="noreferrer" className="icon1">
                 <i className="fab fa-github">Code</i>
               </a>
-              <a href="https://project3demo.netlify.app" target="_blank" className="icon">
+              <a href="https://project3demo.netlify.app" target="_blank" rel="noreferrer" className="icon">
                 <i className="fas fa-download">Live Demo</i>
               </a>
             </div>
           </div>
-          <img src={shoppingsystem} alt="Project 3 image" className="sis" />
+          <img src={shoppingsystem} alt="Shopping System Dashboard" className="sis" />
         </div>
 
         <div className="project-item" data-aos="fade-up">
-          <img src={moviemax} alt="Project image" />
+          <img src={moviemax} alt="MovieMax Homepage"/>
           <div className="project-description">
             <h2>MovieMax</h2>
             <p>Open-Source Movie Website inspired by Netflix tailored to all ages.
                Browse a variety of movie genres and selections with ease!</p>
             <p>Angular&nbsp;&nbsp;&nbsp;HTML&nbsp;&nbsp;&nbsp;CSS&nbsp;&nbsp;&nbsp;TypeScript&nbsp;&nbsp;&nbsp;TMDB</p>
             <div className="project-icons">
-              <a href="https://github.com/ChrisAltay" target="_blank" className="icon1">
+              <a href="https://github.com/ChrisAltay" target="_blank" rel="noreferrer" className="icon1">
                 <i className="fab fa-github">Code</i>
               </a>
-              <a href="https://moviemax-eta.vercel.app/" target="_blank" className="icon">
+              <a href="https://moviemax-eta.vercel.app/" target="_blank" rel="noreferrer" className="icon">
                 <i className="fas fa-download">Live Demo</i>
               </a>
             </div>
@@ -115,15 +115,15 @@ export const Projects = () => {
               students in advancing their knowledge and involvement in computing fields.</p>
             <p>HTML&nbsp;&nbsp;&nbsp;CSS&nbsp;&nbsp;&nbsp;JavaScript</p>
             <div className="project-icons">
-              <a href="https://github.com/ChrisAltay" target="_blank" className="icon1">
+              <a href="https://github.com/ChrisAltay" target="_blank" rel="noreferrer" className="icon1">
                 <i className="fab fa-github">Code</i>
               </a>
-              <a href="https://keanacm.club/" target="_blank" className="icon">
+              <a href="https://keanacm.club/" target="_blank" rel="noreferrer" className="icon">
                 <i className="fas fa-download">Live Demo</i>
               </a>
             </div>
           </div>
-          <img src={ACM} alt="Project 5 image" />
+          <img src={ACM} alt="ACM Club Website"/>
         </div>
 
         <div className="project-item" data-aos="fade-up">
@@ -136,15 +136,15 @@ export const Projects = () => {
             </p>
             <p>HTML&nbsp;&nbsp;TailwindCSS&nbsp;&nbsp;JS&nbsp;&nbsp;MySQL&nbsp;&nbsp;PHP&nbsp;&nbsp;TheMealDB API</p>
             <div className="project-icons">
-              <a href="https://github.com/ChrisAltay/MealMatch.git" target="_blank" className="icon1">
+              <a href="https://github.com/ChrisAltay/MealMatch.git" target="_blank" rel="noreferrer" className="icon1">
                 <i className="fab fa-github">Code</i>
               </a>
-              <a href="http://project.adamspencer.me/index.php" target="_blank" className="icon">
+              <a href="http://project.adamspencer.me/index.php" target="_blank" rel="noreferrer" className="icon">
                 <i className="fas fa-download">Live Demo</i>
               </a>
             </div>
           </div>
-          <img src={MM} alt="Project 5 image" />
+          <img src={MM} alt="MealMatch Recipe App"/>
         </div>
 
         
@@ -155,29 +155,29 @@ export const Projects = () => {
               The project focused on image processing concepts, DOM interaction, and real-time data extraction to help users better understand how digital images are represented and manipulated.</p>
             <p>HTML&nbsp;&nbsp;&nbsp;CSS&nbsp;&nbsp;&nbsp;JavaScript&nbsp;&nbsp;&nbsp;SQL&nbsp;&nbsp;&nbsp;PHP&nbsp;&nbsp;&nbsp;MySQL</p>
             <div className="project-icons">
-              <a href="https://github.com/ChrisAltay" target="_blank" className="icon1">
+              <a href="https://github.com/ChrisAltay" target="_blank" rel="noreferrer" className="icon1">
                 <i className="fab fa-github">Code</i>
               </a>
-              <a href="https://project3demo.netlify.app" target="_blank" className="icon">
+              <a href="https://project3demo.netlify.app" target="_blank" rel="noreferrer" className="icon">
                 <i className="fas fa-download">Live Demo</i>
               </a>
             </div>
           </div>
-          <img src={pixalyze} alt="Pixalyze image"/>
+          <img src={pixalyze} alt="Interactive Analyzer"/>
         </div>
 
            <div className="project-item" data-aos="fade-up">
-          <img src={dataforge} alt="Project image" />
+          <img src={dataforge} alt="Data Vizualization Dashboard"/>
           <div className="project-description">
             <h2>DataForge</h2>
             <p>Built a data visualization dashboard analyzing relationships between education level, unemployment, and self-employment using real-world datasets.
                Implemented database-backed data storage with custom data marts, user authentication (login/logout), and interactive visualizations to surface trends through a clean, accessible interface.</p>
             <p>HTML&nbsp;&nbsp;CSS&nbsp;&nbsp;JavaScript&nbsp;&nbsp;AJAX&nbsp;&nbsp;SQL&nbsp;&nbsp;MySQL&nbsp;&nbsp;PHP</p>
             <div className="project-icons">
-              <a href="https://github.com/ChrisAltay" target="_blank" className="icon1">
+              <a href="https://github.com/ChrisAltay" target="_blank" rel="noreferrer" className="icon1">
                 <i className="fab fa-github">Code</i>
               </a>
-              <a href="https://project3demo.netlify.app" target="_blank" className="icon">
+              <a href="https://project3demo.netlify.app" target="_blank" rel="noreferrer" className="icon">
                 <i className="fas fa-download">Live Demo</i>
               </a>
             </div>
@@ -192,15 +192,15 @@ export const Projects = () => {
                checkout flow, and order tracking, while collaborating with a team on backend integration, database design, and overall system workflow.</p>
             <p>HTML&nbsp;&nbsp;TailwindCSS&nbsp;&nbsp;JS&nbsp;&nbsp;NoSQL&nbsp;&nbsp;Python&nbsp;&nbsp;PHP</p>
             <div className="project-icons">
-              <a href="https://github.com/ChrisAltay" target="_blank" className="icon1">
+              <a href="https://github.com/ChrisAltay" target="_blank" rel="noreferrer" className="icon1">
                 <i className="fab fa-github">Code</i>
               </a>
-              <a href="https://project3demo.netlify.app" target="_blank" className="icon">
+              <a href="https://project3demo.netlify.app" target="_blank" rel="noreferrer" className="icon">
                 <i className="fas fa-download">Live Demo</i>
               </a>
             </div>
           </div>
-          <img src={keanu} alt="Project image" />
+          <img src={keanu} alt="Keanu Store Website"/>
         </div>
 
       </div>
