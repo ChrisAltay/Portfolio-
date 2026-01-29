@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import image1 from '../assets/CKGrad.JPG';
 import image2 from '../assets/Chris.JPG';
 import image3 from '../assets/ChrisGrad.JPG';
@@ -33,7 +33,7 @@ export const About = () => {
               <img src={image1} alt="chris and girlfriend graduation" />
             </div>
             <div >
-              <img src={image2} alt="image of chris" />
+              <img src={image2} alt="chris" />
             </div>
             <div>
               <img src={image3} alt="chris post-graduation" />
@@ -45,13 +45,13 @@ export const About = () => {
               <img src={image5} alt="chris and girlfriend birthday celebration" />
             </div>
             <div>
-              <img src={image6} alt="image of chris" />
+              <img src={image6} alt="chris" />
             </div>
             <div>
               <img src={image7} alt="chris's car which he loves" />
             </div>
             <div>
-              <img src={image8} alt="image of chris" />
+              <img src={image8} alt="chris" />
             </div>
           </Carousel>
         </div>
