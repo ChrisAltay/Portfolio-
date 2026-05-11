@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import '../css/Home.css'; 
-import chrisPicture from '../assets/chris1.JPG'; 
+import chrisPicture from '../assets/chris2.JPG'; 
 import youtubeIcon from '../assets/youtube2.png'; 
 import githubIcon from '../assets/github.png'; 
 import linkedinIcon from '../assets/linkedin.png'; 
